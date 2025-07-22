@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.Designer.cs filter=lfs diff=lfs merge=lfs -text
+*.resx filter=lfs diff=lfs merge=lfs -text
+*.xsd filter=lfs diff=lfs merge=lfs -text
