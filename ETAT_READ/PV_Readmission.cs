@@ -17,10 +17,7 @@ namespace ETAT_READ
             SetDataInHeader();
         }
 
-        public void SetDataInHeader()
-        {
-            xrLabel1.Text = "Réunion du :" + DateTime.Now.ToString("d");
-        }
+
 
         private void InitializeConditionalFormatting()
         {
